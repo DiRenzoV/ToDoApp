@@ -40,7 +40,7 @@ body {
 
 .container {
   display: flex;
-  padding: 3rem;
+  padding: 3rem 10rem;
 }
 
 .lists-container {
@@ -86,8 +86,11 @@ body {
 
 }
 
+.active-list {
+  opacity: 1;
+}
 
-.list--active.list::after {
+.active-list.list::after {
   transform: scaleX(1);
 
 }
@@ -136,6 +139,7 @@ body {
 
 .new-task .input:focus {
   border-bottom: 2px solid black;
+  color: black;
 }
 
 /* -- Buttons -- */
@@ -179,7 +183,7 @@ body {
 
 .btn-delete:hover, .btn-delete:focus {
   transform: scale(1);
-
+  opacity: .8;
 }
 
 /* -- Todo -- */
