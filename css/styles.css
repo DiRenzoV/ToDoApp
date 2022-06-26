@@ -36,6 +36,8 @@ body {
   text-align: left;
 }
 
+
+
 /* -- Lists -- */
 
 .container {
@@ -48,7 +50,6 @@ body {
 }
 
 .all-lists {
-  list-style: circle;
   padding: 2rem;
   width: fit-content;
 }
@@ -206,6 +207,11 @@ body {
 
 /* -- Task -- */
 
+.tasks {
+  max-height: 300px;
+  overflow: scroll;
+}
+
 .task {
   padding: 1.5rem;
   border-bottom: 1px solid rgb(200, 200, 200);
@@ -271,3 +277,47 @@ body {
   opacity: .5;
 }
 
+/* -- Mobile -- */
+
+@media screen and (max-width: 425px) {
+  .header {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 5rem;
+    text-align: center;
+  }
+
+  .lists-container {
+    width: auto;
+    padding: 2rem;
+  }
+
+  .all-lists {
+    margin: auto;
+  }
+
+  .todo-container {
+    width: auto;
+    text-align: left;
+  }
+
+  .todo-header {
+    font-size: 1.5rem;
+  }
+
+  .delete-btns {
+    justify-content: space-between;
+  }
+
+  .btn-delete {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+}
