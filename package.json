@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "cssnano": "^4.1.11",
+    "postcss": "^8.4.14"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "name": "todo-list",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiRenzoV/ToDoApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiRenzoV/ToDoApp/issues"
+  },
+  "homepage": "https://github.com/DiRenzoV/ToDoApp#readme",
+  "description": ""
+}
