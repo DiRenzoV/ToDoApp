@@ -318,6 +318,8 @@ body {
   .btn-delete {
     font-size: 1.5rem;
     margin-top: 2rem;
+    color: white;
+    opacity: .6;
   }
 
 }
