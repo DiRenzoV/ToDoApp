@@ -279,7 +279,7 @@ body {
 
 /* -- Mobile -- */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   .header {
     font-size: 5rem;
     margin-bottom: 3rem;
@@ -299,7 +299,6 @@ body {
   }
 
   
-
   .todo-container {
     width: auto;
     text-align: left;
